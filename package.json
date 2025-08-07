@@ -1,0 +1,29 @@
+{
+  "name": "mern-tutorial",
+  "version": "1.0.0",
+  "description": "My process following [MERN Stack Tutorial with Deployment](https://youtu.be/O3BUHwfHf84?si=Eu529xXIdsChaN51)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duder963/mern-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Duder963/mern-tutorial/issues"
+  },
+  "homepage": "https://github.com/Duder963/mern-tutorial#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
